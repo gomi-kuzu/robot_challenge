@@ -1,0 +1,34 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+jax = "*"
+jaxlib = "*"
+numpyro = "*"
+blackjax = "*"
+matplotlib = "*"
+pandas = "*"
+pymc3 = "*"
+jupyter = "*"
+arviz = "*"
+torch = {file = "https://download.pytorch.org/whl/cpu/torch-2.4.0%2Bcpu-cp311-cp311-linux_x86_64.whl"}
+torchaudio = {file = "https://download.pytorch.org/whl/cpu/torchaudio-2.4.0%2Bcpu-cp311-cp311-linux_x86_64.whl"}
+torchvision = {file = "https://download.pytorch.org/whl/cpu/torchvision-0.19.0%2Bcpu-cp311-cp311-linux_x86_64.whl"}
+jupyterlab = "*"
+pyro-ppl = "*"
+gpytorch = "*"
+japanize-matplotlib = "*"
+seaborn = "*"
+mujoco = "*"
+opencv-python = "*"
+moviepy = "*"
+mediapy = "*"
+robot-descriptions = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11.2"
